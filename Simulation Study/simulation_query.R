@@ -2,6 +2,8 @@
 # model containing more than 30,000 simulations across a wide parameter space. 
 
 # load simulation study
+# table contains true values (ie. true_omega), mean estimates (ie. m.omega),
+# and the 95% CI bounds (ie. X2.5-omega, X97.5_omega)
 simulations<-read.table('https://github.com/zipkinlab/Dynamic_N-Occupancy/raw/master/Simulation%20Study/dynNocc_simulation.txt',
            fill=TRUE, row.names=NULL)
 
